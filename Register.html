@@ -1,0 +1,50 @@
+
+<!DOCTYPE>
+<html>
+<head>
+    <title>Register Form Design</title>
+    <link rel="stylesheet" type="text/css" href="Register.css">
+   <script type="text/javascript" src="js.js"></script> 
+</head>
+<body>
+<div class="box">
+    <img src="user-logo.png" class="logo">
+
+    <h1>Register Here</h1>
+    <form name="myform2" onsubmit="return jscript1()" src="js.js" action="register.php" method="POST">
+
+
+        <p>UserName</p>
+        <div id="img1"><img src="user-login-icon.jpg" class="user1"><input type="text" name="uname1" placeholder="Enter UserName" required="" ></div><br>
+        
+
+
+        <p>Email</p>
+        <div id="img2"><img src="Gmail.jpg" class="Gmail">
+        <input type="Email" name="mail" placeholder="Enter EmailId" required="" ></div><br>
+
+
+        <p>Password</p>
+        <div id="img3"><img src="lock image.jpg" class="lock">
+        <input type="password" name="upswd1" placeholder="Enter Password" required=""></div><br>
+
+
+
+        <p>Retype Password</p>
+        <div id="img3"><img src="lock image.jpg" class="lock">
+        <input type="password" name="retypeupswd" placeholder="Re-Enter Password" required="" ></div><br>
+
+
+
+        <p>Enter MobileNumber</p>
+        <div id="img4"><img src="cell-phone-number.png" class="number">
+        <input type="text" name="mobnumber" placeholder="Mobile Number" required=""></div><br>
+
+        <div id="errorBox"></div>
+        <input type="submit" id="" value="Register">
+        <br><br>
+
+        <a href="login.html">Existing user,LogIn?</a>
+    </form>
+</div>
+</body>

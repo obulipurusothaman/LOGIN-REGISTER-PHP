@@ -1,0 +1,48 @@
+
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+  <script type="text/javascript" src="js.js"></script> 
+</head>
+<body>
+<div class="box">
+    <img src="user-logo.png" class="logo">
+
+<h1><b>LogIn Here</b></h1>
+<form name="myform" onsubmit="return jscript()" src="js.js" action="login.php" method="POST">
+    <p>UserName</p>
+    <div id="img1"><img src="user-login-icon.jpg" class="user1"><input type="text" name="uname" placeholder="Enter UserName" required="" ></div><br>
+
+    <p>Password</p>
+    <div id="img3"><img src="lock image.jpg" class="lock"><input type="password" name="upswd" placeholder="Enter Password" required=""></div><br>
+    <br>
+    
+    <div id="errorBox"></div>
+    <input type="submit"  value="LogIn">
+    <br>
+    <br>
+    <a href="Forgot.html">Forgot Password?</a><br>
+    <br>
+    <br>
+    <a href="Register.html">Register For New Account?</a>
+    <br>
+    <br>
+    <div class="c">
+        <p>SignIn With?</p>
+    </div>
+    <p1>
+        <a href="https://accounts.google.com/">
+            <img src="google.png" class="G">Google
+        </a>
+    </p1>
+
+    <p2>
+        <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin">
+            <img src="linkedin.png" class="L">Linkedin
+        </a>
+    </p2>
+</form>
+</div>
+</body>
